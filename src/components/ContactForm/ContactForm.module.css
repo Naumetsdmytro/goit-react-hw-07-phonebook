@@ -1,12 +1,19 @@
+.title {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
 .contactForm {
   margin-bottom: 20px;
+  display: flex;
+  align-items: baseline;
 }
 
 .inputTitle {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 35px;
+  margin-right: 40px;
 }
 
 .inputText {
@@ -27,7 +34,6 @@
 }
 
 .formBtn {
-  margin-top: 30px;
   padding: 10px;
   outline: none;
   border: none;
@@ -35,6 +41,7 @@
   font-size: 15px;
   border-radius: 3px;
   transition: background-color 200ms linear, color 200ms linear;
+  max-height: 40px;
 }
 
 .formBtn:hover {
