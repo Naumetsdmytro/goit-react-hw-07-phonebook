@@ -29,7 +29,7 @@ export const addContact = createAsyncThunk(
   }
 );
 
-export const deleteTask = createAsyncThunk(
+export const deleteContact = createAsyncThunk(
   'contacts/deleteContact',
   async (taskId, { rejectWithValue }) => {
     try {
